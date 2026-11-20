@@ -1,0 +1,908 @@
+{
+  "dataset": "self-authored fictional development set; not an independent benchmark",
+  "model_revision": "89644892e4d85e24eaac8bacfd4f463576704203",
+  "results": [
+    {
+      "id": "t01",
+      "category": "table",
+      "mode": "search",
+      "expected_pages": [
+        1
+      ],
+      "accepted_answers": [
+        "8"
+      ],
+      "retrieval_recall": 1.0,
+      "reference_contains_proxy": null,
+      "report": {
+        "schema_version": 1,
+        "document": {
+          "name": "technical-catalog.pdf",
+          "sha256": "523414900189612738f9d5d91c2849e05b8cfb82b08c3cee2b93e6ae85e3696b",
+          "page_count": 3,
+          "skipped_pages": []
+        },
+        "question": "How much does Atlas A1 weigh?",
+        "retrieval": "bilingual_bm25",
+        "retrieved_pages": [
+          {
+            "page": 2,
+            "score": 0.504325,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nAtlas A1 power test\nFigure 1. Average power consumption by operating mode\nIdle 18 W\nMeasurement 30 W\nIntensive processing 45 W\nTest conditions\nTests were conducted at an ambient temperature of 23 °C.\nEach operating mode was measured for 60 minutes.\nThe sample size was five devices per mode.\nThis chart shows only the fictional Atlas A1 test.\nFictional data - not a real product or laboratory result. 2 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 1,
+            "score": 0.453129,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nPortable measurement stations\nThe table compares the specifications of three fictional models.\nSpecification Atlas A1 Bora B2 Ceren C3\nWeight 8 kg 12 kg 6 kg\nBattery life 9 hours 12 hours 5 hours\nFull charge time 2 hours 3 hours 1.5 hours\nProtection rating IP54 IP65 IP44\nWarranty period 24 months 36 months 24 months\nOperating temperature 0–40 °C -10–50 °C 5–35 °C\nSelection notes\nAtlas A1 is designed for lightweight field use.\nBora B2 offers longer operation and a higher protection rating.\nCeren C3 is designed for short indoor measurements.\nFictional data - not a real product or laboratory result. 1 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 3,
+            "score": 0.403321,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nMaintenance and operating limits\nThe calibration interval is 12 months for all models.\nThe Atlas A1 storage temperature range is -20–60 °C.\nUse a dry microfiber cloth for cleaning.\nThe warranty does not cover damage from full liquid immersion.\nThe battery must be replaced by an authorized service provider.\nThis document does not provide pricing, camera or wireless specifications.\nFictional data - not a real product or laboratory result. 3 / 3",
+            "text_truncated": false
+          }
+        ],
+        "answer": "Relevant pages were found. Source search does not generate a model answer.",
+        "evidence": [],
+        "model_called": false,
+        "citation_check": "Exact quote presence only; semantic correctness is not guaranteed.",
+        "mode": "search",
+        "status": "sources_only",
+        "elapsed_seconds": 0.596
+      }
+    },
+    {
+      "id": "t02",
+      "category": "table",
+      "mode": "search",
+      "expected_pages": [
+        1
+      ],
+      "accepted_answers": [
+        "12"
+      ],
+      "retrieval_recall": 1.0,
+      "reference_contains_proxy": null,
+      "report": {
+        "schema_version": 1,
+        "document": {
+          "name": "technical-catalog.pdf",
+          "sha256": "523414900189612738f9d5d91c2849e05b8cfb82b08c3cee2b93e6ae85e3696b",
+          "page_count": 3,
+          "skipped_pages": []
+        },
+        "question": "How many hours of battery life does Bora B2 provide?",
+        "retrieval": "bilingual_bm25",
+        "retrieved_pages": [
+          {
+            "page": 1,
+            "score": 12.954312,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nPortable measurement stations\nThe table compares the specifications of three fictional models.\nSpecification Atlas A1 Bora B2 Ceren C3\nWeight 8 kg 12 kg 6 kg\nBattery life 9 hours 12 hours 5 hours\nFull charge time 2 hours 3 hours 1.5 hours\nProtection rating IP54 IP65 IP44\nWarranty period 24 months 36 months 24 months\nOperating temperature 0–40 °C -10–50 °C 5–35 °C\nSelection notes\nAtlas A1 is designed for lightweight field use.\nBora B2 offers longer operation and a higher protection rating.\nCeren C3 is designed for short indoor measurements.\nFictional data - not a real product or laboratory result. 1 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 3,
+            "score": 6.228987,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nMaintenance and operating limits\nThe calibration interval is 12 months for all models.\nThe Atlas A1 storage temperature range is -20–60 °C.\nUse a dry microfiber cloth for cleaning.\nThe warranty does not cover damage from full liquid immersion.\nThe battery must be replaced by an authorized service provider.\nThis document does not provide pricing, camera or wireless specifications.\nFictional data - not a real product or laboratory result. 3 / 3",
+            "text_truncated": false
+          }
+        ],
+        "answer": "Relevant pages were found. Source search does not generate a model answer.",
+        "evidence": [],
+        "model_called": false,
+        "citation_check": "Exact quote presence only; semantic correctness is not guaranteed.",
+        "mode": "search",
+        "status": "sources_only",
+        "elapsed_seconds": 0.439
+      }
+    },
+    {
+      "id": "t03",
+      "category": "table",
+      "mode": "search",
+      "expected_pages": [
+        1
+      ],
+      "accepted_answers": [
+        "1.5"
+      ],
+      "retrieval_recall": 1.0,
+      "reference_contains_proxy": null,
+      "report": {
+        "schema_version": 1,
+        "document": {
+          "name": "technical-catalog.pdf",
+          "sha256": "523414900189612738f9d5d91c2849e05b8cfb82b08c3cee2b93e6ae85e3696b",
+          "page_count": 3,
+          "skipped_pages": []
+        },
+        "question": "How long does Ceren C3 take to fully charge?",
+        "retrieval": "bilingual_bm25",
+        "retrieved_pages": [
+          {
+            "page": 1,
+            "score": 7.51154,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nPortable measurement stations\nThe table compares the specifications of three fictional models.\nSpecification Atlas A1 Bora B2 Ceren C3\nWeight 8 kg 12 kg 6 kg\nBattery life 9 hours 12 hours 5 hours\nFull charge time 2 hours 3 hours 1.5 hours\nProtection rating IP54 IP65 IP44\nWarranty period 24 months 36 months 24 months\nOperating temperature 0–40 °C -10–50 °C 5–35 °C\nSelection notes\nAtlas A1 is designed for lightweight field use.\nBora B2 offers longer operation and a higher protection rating.\nCeren C3 is designed for short indoor measurements.\nFictional data - not a real product or laboratory result. 1 / 3",
+            "text_truncated": false
+          }
+        ],
+        "answer": "Relevant pages were found. Source search does not generate a model answer.",
+        "evidence": [],
+        "model_called": false,
+        "citation_check": "Exact quote presence only; semantic correctness is not guaranteed.",
+        "mode": "search",
+        "status": "sources_only",
+        "elapsed_seconds": 0.421
+      }
+    },
+    {
+      "id": "t04",
+      "category": "comparison",
+      "mode": "search",
+      "expected_pages": [
+        1
+      ],
+      "accepted_answers": [
+        "Atlas A1"
+      ],
+      "retrieval_recall": 1.0,
+      "reference_contains_proxy": null,
+      "report": {
+        "schema_version": 1,
+        "document": {
+          "name": "technical-catalog.pdf",
+          "sha256": "523414900189612738f9d5d91c2849e05b8cfb82b08c3cee2b93e6ae85e3696b",
+          "page_count": 3,
+          "skipped_pages": []
+        },
+        "question": "Which model weighs less than 10 kg and provides at least 8 hours of battery life?",
+        "retrieval": "bilingual_bm25",
+        "retrieved_pages": [
+          {
+            "page": 1,
+            "score": 12.948084,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nPortable measurement stations\nThe table compares the specifications of three fictional models.\nSpecification Atlas A1 Bora B2 Ceren C3\nWeight 8 kg 12 kg 6 kg\nBattery life 9 hours 12 hours 5 hours\nFull charge time 2 hours 3 hours 1.5 hours\nProtection rating IP54 IP65 IP44\nWarranty period 24 months 36 months 24 months\nOperating temperature 0–40 °C -10–50 °C 5–35 °C\nSelection notes\nAtlas A1 is designed for lightweight field use.\nBora B2 offers longer operation and a higher protection rating.\nCeren C3 is designed for short indoor measurements.\nFictional data - not a real product or laboratory result. 1 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 3,
+            "score": 3.976273,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nMaintenance and operating limits\nThe calibration interval is 12 months for all models.\nThe Atlas A1 storage temperature range is -20–60 °C.\nUse a dry microfiber cloth for cleaning.\nThe warranty does not cover damage from full liquid immersion.\nThe battery must be replaced by an authorized service provider.\nThis document does not provide pricing, camera or wireless specifications.\nFictional data - not a real product or laboratory result. 3 / 3",
+            "text_truncated": false
+          }
+        ],
+        "answer": "Relevant pages were found. Source search does not generate a model answer.",
+        "evidence": [],
+        "model_called": false,
+        "citation_check": "Exact quote presence only; semantic correctness is not guaranteed.",
+        "mode": "search",
+        "status": "sources_only",
+        "elapsed_seconds": 0.429
+      }
+    },
+    {
+      "id": "t05",
+      "category": "table",
+      "mode": "search",
+      "expected_pages": [
+        1
+      ],
+      "accepted_answers": [
+        "IP65"
+      ],
+      "retrieval_recall": 1.0,
+      "reference_contains_proxy": null,
+      "report": {
+        "schema_version": 1,
+        "document": {
+          "name": "technical-catalog.pdf",
+          "sha256": "523414900189612738f9d5d91c2849e05b8cfb82b08c3cee2b93e6ae85e3696b",
+          "page_count": 3,
+          "skipped_pages": []
+        },
+        "question": "What is the protection rating of Bora B2?",
+        "retrieval": "bilingual_bm25",
+        "retrieved_pages": [
+          {
+            "page": 1,
+            "score": 13.313483,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nPortable measurement stations\nThe table compares the specifications of three fictional models.\nSpecification Atlas A1 Bora B2 Ceren C3\nWeight 8 kg 12 kg 6 kg\nBattery life 9 hours 12 hours 5 hours\nFull charge time 2 hours 3 hours 1.5 hours\nProtection rating IP54 IP65 IP44\nWarranty period 24 months 36 months 24 months\nOperating temperature 0–40 °C -10–50 °C 5–35 °C\nSelection notes\nAtlas A1 is designed for lightweight field use.\nBora B2 offers longer operation and a higher protection rating.\nCeren C3 is designed for short indoor measurements.\nFictional data - not a real product or laboratory result. 1 / 3",
+            "text_truncated": false
+          }
+        ],
+        "answer": "Relevant pages were found. Source search does not generate a model answer.",
+        "evidence": [],
+        "model_called": false,
+        "citation_check": "Exact quote presence only; semantic correctness is not guaranteed.",
+        "mode": "search",
+        "status": "sources_only",
+        "elapsed_seconds": 0.456
+      }
+    },
+    {
+      "id": "t06",
+      "category": "table",
+      "mode": "search",
+      "expected_pages": [
+        1
+      ],
+      "accepted_answers": [
+        "24"
+      ],
+      "retrieval_recall": 1.0,
+      "reference_contains_proxy": null,
+      "report": {
+        "schema_version": 1,
+        "document": {
+          "name": "technical-catalog.pdf",
+          "sha256": "523414900189612738f9d5d91c2849e05b8cfb82b08c3cee2b93e6ae85e3696b",
+          "page_count": 3,
+          "skipped_pages": []
+        },
+        "question": "How many months is the Atlas A1 warranty?",
+        "retrieval": "bilingual_bm25",
+        "retrieved_pages": [
+          {
+            "page": 1,
+            "score": 3.446438,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nPortable measurement stations\nThe table compares the specifications of three fictional models.\nSpecification Atlas A1 Bora B2 Ceren C3\nWeight 8 kg 12 kg 6 kg\nBattery life 9 hours 12 hours 5 hours\nFull charge time 2 hours 3 hours 1.5 hours\nProtection rating IP54 IP65 IP44\nWarranty period 24 months 36 months 24 months\nOperating temperature 0–40 °C -10–50 °C 5–35 °C\nSelection notes\nAtlas A1 is designed for lightweight field use.\nBora B2 offers longer operation and a higher protection rating.\nCeren C3 is designed for short indoor measurements.\nFictional data - not a real product or laboratory result. 1 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 3,
+            "score": 3.24254,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nMaintenance and operating limits\nThe calibration interval is 12 months for all models.\nThe Atlas A1 storage temperature range is -20–60 °C.\nUse a dry microfiber cloth for cleaning.\nThe warranty does not cover damage from full liquid immersion.\nThe battery must be replaced by an authorized service provider.\nThis document does not provide pricing, camera or wireless specifications.\nFictional data - not a real product or laboratory result. 3 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 2,
+            "score": 0.504325,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nAtlas A1 power test\nFigure 1. Average power consumption by operating mode\nIdle 18 W\nMeasurement 30 W\nIntensive processing 45 W\nTest conditions\nTests were conducted at an ambient temperature of 23 °C.\nEach operating mode was measured for 60 minutes.\nThe sample size was five devices per mode.\nThis chart shows only the fictional Atlas A1 test.\nFictional data - not a real product or laboratory result. 2 / 3",
+            "text_truncated": false
+          }
+        ],
+        "answer": "Relevant pages were found. Source search does not generate a model answer.",
+        "evidence": [],
+        "model_called": false,
+        "citation_check": "Exact quote presence only; semantic correctness is not guaranteed.",
+        "mode": "search",
+        "status": "sources_only",
+        "elapsed_seconds": 0.418
+      }
+    },
+    {
+      "id": "t07",
+      "category": "comparison",
+      "mode": "search",
+      "expected_pages": [
+        1
+      ],
+      "accepted_answers": [
+        "Bora B2"
+      ],
+      "retrieval_recall": 1.0,
+      "reference_contains_proxy": null,
+      "report": {
+        "schema_version": 1,
+        "document": {
+          "name": "technical-catalog.pdf",
+          "sha256": "523414900189612738f9d5d91c2849e05b8cfb82b08c3cee2b93e6ae85e3696b",
+          "page_count": 3,
+          "skipped_pages": []
+        },
+        "question": "Which model has the longest warranty?",
+        "retrieval": "bilingual_bm25",
+        "retrieved_pages": [
+          {
+            "page": 3,
+            "score": 2.129414,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nMaintenance and operating limits\nThe calibration interval is 12 months for all models.\nThe Atlas A1 storage temperature range is -20–60 °C.\nUse a dry microfiber cloth for cleaning.\nThe warranty does not cover damage from full liquid immersion.\nThe battery must be replaced by an authorized service provider.\nThis document does not provide pricing, camera or wireless specifications.\nFictional data - not a real product or laboratory result. 3 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 1,
+            "score": 1.810608,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nPortable measurement stations\nThe table compares the specifications of three fictional models.\nSpecification Atlas A1 Bora B2 Ceren C3\nWeight 8 kg 12 kg 6 kg\nBattery life 9 hours 12 hours 5 hours\nFull charge time 2 hours 3 hours 1.5 hours\nProtection rating IP54 IP65 IP44\nWarranty period 24 months 36 months 24 months\nOperating temperature 0–40 °C -10–50 °C 5–35 °C\nSelection notes\nAtlas A1 is designed for lightweight field use.\nBora B2 offers longer operation and a higher protection rating.\nCeren C3 is designed for short indoor measurements.\nFictional data - not a real product or laboratory result. 1 / 3",
+            "text_truncated": false
+          }
+        ],
+        "answer": "Relevant pages were found. Source search does not generate a model answer.",
+        "evidence": [],
+        "model_called": false,
+        "citation_check": "Exact quote presence only; semantic correctness is not guaranteed.",
+        "mode": "search",
+        "status": "sources_only",
+        "elapsed_seconds": 0.415
+      }
+    },
+    {
+      "id": "t08",
+      "category": "table",
+      "mode": "search",
+      "expected_pages": [
+        1
+      ],
+      "accepted_answers": [
+        "6"
+      ],
+      "retrieval_recall": 1.0,
+      "reference_contains_proxy": null,
+      "report": {
+        "schema_version": 1,
+        "document": {
+          "name": "technical-catalog.pdf",
+          "sha256": "523414900189612738f9d5d91c2849e05b8cfb82b08c3cee2b93e6ae85e3696b",
+          "page_count": 3,
+          "skipped_pages": []
+        },
+        "question": "How much does Ceren C3 weigh?",
+        "retrieval": "bilingual_bm25",
+        "retrieved_pages": [
+          {
+            "page": 1,
+            "score": 4.992556,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nPortable measurement stations\nThe table compares the specifications of three fictional models.\nSpecification Atlas A1 Bora B2 Ceren C3\nWeight 8 kg 12 kg 6 kg\nBattery life 9 hours 12 hours 5 hours\nFull charge time 2 hours 3 hours 1.5 hours\nProtection rating IP54 IP65 IP44\nWarranty period 24 months 36 months 24 months\nOperating temperature 0–40 °C -10–50 °C 5–35 °C\nSelection notes\nAtlas A1 is designed for lightweight field use.\nBora B2 offers longer operation and a higher protection rating.\nCeren C3 is designed for short indoor measurements.\nFictional data - not a real product or laboratory result. 1 / 3",
+            "text_truncated": false
+          }
+        ],
+        "answer": "Relevant pages were found. Source search does not generate a model answer.",
+        "evidence": [],
+        "model_called": false,
+        "citation_check": "Exact quote presence only; semantic correctness is not guaranteed.",
+        "mode": "search",
+        "status": "sources_only",
+        "elapsed_seconds": 0.443
+      }
+    },
+    {
+      "id": "t09",
+      "category": "table",
+      "mode": "search",
+      "expected_pages": [
+        1
+      ],
+      "accepted_answers": [
+        "2"
+      ],
+      "retrieval_recall": 1.0,
+      "reference_contains_proxy": null,
+      "report": {
+        "schema_version": 1,
+        "document": {
+          "name": "technical-catalog.pdf",
+          "sha256": "523414900189612738f9d5d91c2849e05b8cfb82b08c3cee2b93e6ae85e3696b",
+          "page_count": 3,
+          "skipped_pages": []
+        },
+        "question": "What is the full charge time of Atlas A1?",
+        "retrieval": "bilingual_bm25",
+        "retrieved_pages": [
+          {
+            "page": 1,
+            "score": 6.094632,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nPortable measurement stations\nThe table compares the specifications of three fictional models.\nSpecification Atlas A1 Bora B2 Ceren C3\nWeight 8 kg 12 kg 6 kg\nBattery life 9 hours 12 hours 5 hours\nFull charge time 2 hours 3 hours 1.5 hours\nProtection rating IP54 IP65 IP44\nWarranty period 24 months 36 months 24 months\nOperating temperature 0–40 °C -10–50 °C 5–35 °C\nSelection notes\nAtlas A1 is designed for lightweight field use.\nBora B2 offers longer operation and a higher protection rating.\nCeren C3 is designed for short indoor measurements.\nFictional data - not a real product or laboratory result. 1 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 3,
+            "score": 1.113126,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nMaintenance and operating limits\nThe calibration interval is 12 months for all models.\nThe Atlas A1 storage temperature range is -20–60 °C.\nUse a dry microfiber cloth for cleaning.\nThe warranty does not cover damage from full liquid immersion.\nThe battery must be replaced by an authorized service provider.\nThis document does not provide pricing, camera or wireless specifications.\nFictional data - not a real product or laboratory result. 3 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 2,
+            "score": 0.504325,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nAtlas A1 power test\nFigure 1. Average power consumption by operating mode\nIdle 18 W\nMeasurement 30 W\nIntensive processing 45 W\nTest conditions\nTests were conducted at an ambient temperature of 23 °C.\nEach operating mode was measured for 60 minutes.\nThe sample size was five devices per mode.\nThis chart shows only the fictional Atlas A1 test.\nFictional data - not a real product or laboratory result. 2 / 3",
+            "text_truncated": false
+          }
+        ],
+        "answer": "Relevant pages were found. Source search does not generate a model answer.",
+        "evidence": [],
+        "model_called": false,
+        "citation_check": "Exact quote presence only; semantic correctness is not guaranteed.",
+        "mode": "search",
+        "status": "sources_only",
+        "elapsed_seconds": 0.423
+      }
+    },
+    {
+      "id": "t10",
+      "category": "table",
+      "mode": "search",
+      "expected_pages": [
+        1
+      ],
+      "accepted_answers": [
+        "-10"
+      ],
+      "retrieval_recall": 1.0,
+      "reference_contains_proxy": null,
+      "report": {
+        "schema_version": 1,
+        "document": {
+          "name": "technical-catalog.pdf",
+          "sha256": "523414900189612738f9d5d91c2849e05b8cfb82b08c3cee2b93e6ae85e3696b",
+          "page_count": 3,
+          "skipped_pages": []
+        },
+        "question": "What is the minimum operating temperature of Bora B2?",
+        "retrieval": "bilingual_bm25",
+        "retrieved_pages": [
+          {
+            "page": 1,
+            "score": 5.904996,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nPortable measurement stations\nThe table compares the specifications of three fictional models.\nSpecification Atlas A1 Bora B2 Ceren C3\nWeight 8 kg 12 kg 6 kg\nBattery life 9 hours 12 hours 5 hours\nFull charge time 2 hours 3 hours 1.5 hours\nProtection rating IP54 IP65 IP44\nWarranty period 24 months 36 months 24 months\nOperating temperature 0–40 °C -10–50 °C 5–35 °C\nSelection notes\nAtlas A1 is designed for lightweight field use.\nBora B2 offers longer operation and a higher protection rating.\nCeren C3 is designed for short indoor measurements.\nFictional data - not a real product or laboratory result. 1 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 2,
+            "score": 1.161686,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nAtlas A1 power test\nFigure 1. Average power consumption by operating mode\nIdle 18 W\nMeasurement 30 W\nIntensive processing 45 W\nTest conditions\nTests were conducted at an ambient temperature of 23 °C.\nEach operating mode was measured for 60 minutes.\nThe sample size was five devices per mode.\nThis chart shows only the fictional Atlas A1 test.\nFictional data - not a real product or laboratory result. 2 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 3,
+            "score": 1.008303,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nMaintenance and operating limits\nThe calibration interval is 12 months for all models.\nThe Atlas A1 storage temperature range is -20–60 °C.\nUse a dry microfiber cloth for cleaning.\nThe warranty does not cover damage from full liquid immersion.\nThe battery must be replaced by an authorized service provider.\nThis document does not provide pricing, camera or wireless specifications.\nFictional data - not a real product or laboratory result. 3 / 3",
+            "text_truncated": false
+          }
+        ],
+        "answer": "Relevant pages were found. Source search does not generate a model answer.",
+        "evidence": [],
+        "model_called": false,
+        "citation_check": "Exact quote presence only; semantic correctness is not guaranteed.",
+        "mode": "search",
+        "status": "sources_only",
+        "elapsed_seconds": 0.418
+      }
+    },
+    {
+      "id": "g01",
+      "category": "chart",
+      "mode": "search",
+      "expected_pages": [
+        2
+      ],
+      "accepted_answers": [
+        "18"
+      ],
+      "retrieval_recall": 1.0,
+      "reference_contains_proxy": null,
+      "report": {
+        "schema_version": 1,
+        "document": {
+          "name": "technical-catalog.pdf",
+          "sha256": "523414900189612738f9d5d91c2849e05b8cfb82b08c3cee2b93e6ae85e3696b",
+          "page_count": 3,
+          "skipped_pages": []
+        },
+        "question": "What is the average power consumption of Atlas A1 when idle?",
+        "retrieval": "bilingual_bm25",
+        "retrieved_pages": [
+          {
+            "page": 2,
+            "score": 13.001998,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nAtlas A1 power test\nFigure 1. Average power consumption by operating mode\nIdle 18 W\nMeasurement 30 W\nIntensive processing 45 W\nTest conditions\nTests were conducted at an ambient temperature of 23 °C.\nEach operating mode was measured for 60 minutes.\nThe sample size was five devices per mode.\nThis chart shows only the fictional Atlas A1 test.\nFictional data - not a real product or laboratory result. 2 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 1,
+            "score": 0.453129,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nPortable measurement stations\nThe table compares the specifications of three fictional models.\nSpecification Atlas A1 Bora B2 Ceren C3\nWeight 8 kg 12 kg 6 kg\nBattery life 9 hours 12 hours 5 hours\nFull charge time 2 hours 3 hours 1.5 hours\nProtection rating IP54 IP65 IP44\nWarranty period 24 months 36 months 24 months\nOperating temperature 0–40 °C -10–50 °C 5–35 °C\nSelection notes\nAtlas A1 is designed for lightweight field use.\nBora B2 offers longer operation and a higher protection rating.\nCeren C3 is designed for short indoor measurements.\nFictional data - not a real product or laboratory result. 1 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 3,
+            "score": 0.403321,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nMaintenance and operating limits\nThe calibration interval is 12 months for all models.\nThe Atlas A1 storage temperature range is -20–60 °C.\nUse a dry microfiber cloth for cleaning.\nThe warranty does not cover damage from full liquid immersion.\nThe battery must be replaced by an authorized service provider.\nThis document does not provide pricing, camera or wireless specifications.\nFictional data - not a real product or laboratory result. 3 / 3",
+            "text_truncated": false
+          }
+        ],
+        "answer": "Relevant pages were found. Source search does not generate a model answer.",
+        "evidence": [],
+        "model_called": false,
+        "citation_check": "Exact quote presence only; semantic correctness is not guaranteed.",
+        "mode": "search",
+        "status": "sources_only",
+        "elapsed_seconds": 0.516
+      }
+    },
+    {
+      "id": "g02",
+      "category": "chart",
+      "mode": "search",
+      "expected_pages": [
+        2
+      ],
+      "accepted_answers": [
+        "45"
+      ],
+      "retrieval_recall": 1.0,
+      "reference_contains_proxy": null,
+      "report": {
+        "schema_version": 1,
+        "document": {
+          "name": "technical-catalog.pdf",
+          "sha256": "523414900189612738f9d5d91c2849e05b8cfb82b08c3cee2b93e6ae85e3696b",
+          "page_count": 3,
+          "skipped_pages": []
+        },
+        "question": "What is the average power consumption in intensive processing mode?",
+        "retrieval": "bilingual_bm25",
+        "retrieved_pages": [
+          {
+            "page": 2,
+            "score": 18.978795,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nAtlas A1 power test\nFigure 1. Average power consumption by operating mode\nIdle 18 W\nMeasurement 30 W\nIntensive processing 45 W\nTest conditions\nTests were conducted at an ambient temperature of 23 °C.\nEach operating mode was measured for 60 minutes.\nThe sample size was five devices per mode.\nThis chart shows only the fictional Atlas A1 test.\nFictional data - not a real product or laboratory result. 2 / 3",
+            "text_truncated": false
+          }
+        ],
+        "answer": "Relevant pages were found. Source search does not generate a model answer.",
+        "evidence": [],
+        "model_called": false,
+        "citation_check": "Exact quote presence only; semantic correctness is not guaranteed.",
+        "mode": "search",
+        "status": "sources_only",
+        "elapsed_seconds": 0.444
+      }
+    },
+    {
+      "id": "g03",
+      "category": "chart-reasoning",
+      "mode": "search",
+      "expected_pages": [
+        2
+      ],
+      "accepted_answers": [
+        "12"
+      ],
+      "retrieval_recall": 1.0,
+      "reference_contains_proxy": null,
+      "report": {
+        "schema_version": 1,
+        "document": {
+          "name": "technical-catalog.pdf",
+          "sha256": "523414900189612738f9d5d91c2849e05b8cfb82b08c3cee2b93e6ae85e3696b",
+          "page_count": 3,
+          "skipped_pages": []
+        },
+        "question": "What is the power difference between measurement and idle modes in watts?",
+        "retrieval": "bilingual_bm25",
+        "retrieved_pages": [
+          {
+            "page": 2,
+            "score": 8.674227,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nAtlas A1 power test\nFigure 1. Average power consumption by operating mode\nIdle 18 W\nMeasurement 30 W\nIntensive processing 45 W\nTest conditions\nTests were conducted at an ambient temperature of 23 °C.\nEach operating mode was measured for 60 minutes.\nThe sample size was five devices per mode.\nThis chart shows only the fictional Atlas A1 test.\nFictional data - not a real product or laboratory result. 2 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 1,
+            "score": 1.400997,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nPortable measurement stations\nThe table compares the specifications of three fictional models.\nSpecification Atlas A1 Bora B2 Ceren C3\nWeight 8 kg 12 kg 6 kg\nBattery life 9 hours 12 hours 5 hours\nFull charge time 2 hours 3 hours 1.5 hours\nProtection rating IP54 IP65 IP44\nWarranty period 24 months 36 months 24 months\nOperating temperature 0–40 °C -10–50 °C 5–35 °C\nSelection notes\nAtlas A1 is designed for lightweight field use.\nBora B2 offers longer operation and a higher protection rating.\nCeren C3 is designed for short indoor measurements.\nFictional data - not a real product or laboratory result. 1 / 3",
+            "text_truncated": false
+          }
+        ],
+        "answer": "Relevant pages were found. Source search does not generate a model answer.",
+        "evidence": [],
+        "model_called": false,
+        "citation_check": "Exact quote presence only; semantic correctness is not guaranteed.",
+        "mode": "search",
+        "status": "sources_only",
+        "elapsed_seconds": 0.422
+      }
+    },
+    {
+      "id": "g04",
+      "category": "text",
+      "mode": "search",
+      "expected_pages": [
+        2
+      ],
+      "accepted_answers": [
+        "23"
+      ],
+      "retrieval_recall": 1.0,
+      "reference_contains_proxy": null,
+      "report": {
+        "schema_version": 1,
+        "document": {
+          "name": "technical-catalog.pdf",
+          "sha256": "523414900189612738f9d5d91c2849e05b8cfb82b08c3cee2b93e6ae85e3696b",
+          "page_count": 3,
+          "skipped_pages": []
+        },
+        "question": "What was the ambient temperature during the power tests?",
+        "retrieval": "bilingual_bm25",
+        "retrieved_pages": [
+          {
+            "page": 2,
+            "score": 7.34406,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nAtlas A1 power test\nFigure 1. Average power consumption by operating mode\nIdle 18 W\nMeasurement 30 W\nIntensive processing 45 W\nTest conditions\nTests were conducted at an ambient temperature of 23 °C.\nEach operating mode was measured for 60 minutes.\nThe sample size was five devices per mode.\nThis chart shows only the fictional Atlas A1 test.\nFictional data - not a real product or laboratory result. 2 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 3,
+            "score": 0.403321,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nMaintenance and operating limits\nThe calibration interval is 12 months for all models.\nThe Atlas A1 storage temperature range is -20–60 °C.\nUse a dry microfiber cloth for cleaning.\nThe warranty does not cover damage from full liquid immersion.\nThe battery must be replaced by an authorized service provider.\nThis document does not provide pricing, camera or wireless specifications.\nFictional data - not a real product or laboratory result. 3 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 1,
+            "score": 0.342938,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nPortable measurement stations\nThe table compares the specifications of three fictional models.\nSpecification Atlas A1 Bora B2 Ceren C3\nWeight 8 kg 12 kg 6 kg\nBattery life 9 hours 12 hours 5 hours\nFull charge time 2 hours 3 hours 1.5 hours\nProtection rating IP54 IP65 IP44\nWarranty period 24 months 36 months 24 months\nOperating temperature 0–40 °C -10–50 °C 5–35 °C\nSelection notes\nAtlas A1 is designed for lightweight field use.\nBora B2 offers longer operation and a higher protection rating.\nCeren C3 is designed for short indoor measurements.\nFictional data - not a real product or laboratory result. 1 / 3",
+            "text_truncated": false
+          }
+        ],
+        "answer": "Relevant pages were found. Source search does not generate a model answer.",
+        "evidence": [],
+        "model_called": false,
+        "citation_check": "Exact quote presence only; semantic correctness is not guaranteed.",
+        "mode": "search",
+        "status": "sources_only",
+        "elapsed_seconds": 0.434
+      }
+    },
+    {
+      "id": "m01",
+      "category": "text",
+      "mode": "search",
+      "expected_pages": [
+        3
+      ],
+      "accepted_answers": [
+        "12"
+      ],
+      "retrieval_recall": 1.0,
+      "reference_contains_proxy": null,
+      "report": {
+        "schema_version": 1,
+        "document": {
+          "name": "technical-catalog.pdf",
+          "sha256": "523414900189612738f9d5d91c2849e05b8cfb82b08c3cee2b93e6ae85e3696b",
+          "page_count": 3,
+          "skipped_pages": []
+        },
+        "question": "What is the calibration interval in months?",
+        "retrieval": "bilingual_bm25",
+        "retrieved_pages": [
+          {
+            "page": 3,
+            "score": 5.863387,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nMaintenance and operating limits\nThe calibration interval is 12 months for all models.\nThe Atlas A1 storage temperature range is -20–60 °C.\nUse a dry microfiber cloth for cleaning.\nThe warranty does not cover damage from full liquid immersion.\nThe battery must be replaced by an authorized service provider.\nThis document does not provide pricing, camera or wireless specifications.\nFictional data - not a real product or laboratory result. 3 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 1,
+            "score": 1.786237,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nPortable measurement stations\nThe table compares the specifications of three fictional models.\nSpecification Atlas A1 Bora B2 Ceren C3\nWeight 8 kg 12 kg 6 kg\nBattery life 9 hours 12 hours 5 hours\nFull charge time 2 hours 3 hours 1.5 hours\nProtection rating IP54 IP65 IP44\nWarranty period 24 months 36 months 24 months\nOperating temperature 0–40 °C -10–50 °C 5–35 °C\nSelection notes\nAtlas A1 is designed for lightweight field use.\nBora B2 offers longer operation and a higher protection rating.\nCeren C3 is designed for short indoor measurements.\nFictional data - not a real product or laboratory result. 1 / 3",
+            "text_truncated": false
+          }
+        ],
+        "answer": "Relevant pages were found. Source search does not generate a model answer.",
+        "evidence": [],
+        "model_called": false,
+        "citation_check": "Exact quote presence only; semantic correctness is not guaranteed.",
+        "mode": "search",
+        "status": "sources_only",
+        "elapsed_seconds": 0.48
+      }
+    },
+    {
+      "id": "m02",
+      "category": "text",
+      "mode": "search",
+      "expected_pages": [
+        3
+      ],
+      "accepted_answers": [
+        "microfiber"
+      ],
+      "retrieval_recall": 1.0,
+      "reference_contains_proxy": null,
+      "report": {
+        "schema_version": 1,
+        "document": {
+          "name": "technical-catalog.pdf",
+          "sha256": "523414900189612738f9d5d91c2849e05b8cfb82b08c3cee2b93e6ae85e3696b",
+          "page_count": 3,
+          "skipped_pages": []
+        },
+        "question": "What type of cloth should be used for cleaning?",
+        "retrieval": "bilingual_bm25",
+        "retrieved_pages": [
+          {
+            "page": 3,
+            "score": 6.634842,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nMaintenance and operating limits\nThe calibration interval is 12 months for all models.\nThe Atlas A1 storage temperature range is -20–60 °C.\nUse a dry microfiber cloth for cleaning.\nThe warranty does not cover damage from full liquid immersion.\nThe battery must be replaced by an authorized service provider.\nThis document does not provide pricing, camera or wireless specifications.\nFictional data - not a real product or laboratory result. 3 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 1,
+            "score": 0.603536,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nPortable measurement stations\nThe table compares the specifications of three fictional models.\nSpecification Atlas A1 Bora B2 Ceren C3\nWeight 8 kg 12 kg 6 kg\nBattery life 9 hours 12 hours 5 hours\nFull charge time 2 hours 3 hours 1.5 hours\nProtection rating IP54 IP65 IP44\nWarranty period 24 months 36 months 24 months\nOperating temperature 0–40 °C -10–50 °C 5–35 °C\nSelection notes\nAtlas A1 is designed for lightweight field use.\nBora B2 offers longer operation and a higher protection rating.\nCeren C3 is designed for short indoor measurements.\nFictional data - not a real product or laboratory result. 1 / 3",
+            "text_truncated": false
+          }
+        ],
+        "answer": "Relevant pages were found. Source search does not generate a model answer.",
+        "evidence": [],
+        "model_called": false,
+        "citation_check": "Exact quote presence only; semantic correctness is not guaranteed.",
+        "mode": "search",
+        "status": "sources_only",
+        "elapsed_seconds": 0.469
+      }
+    },
+    {
+      "id": "u01",
+      "category": "unanswerable",
+      "mode": "search",
+      "expected_pages": [],
+      "accepted_answers": [],
+      "retrieval_recall": null,
+      "reference_contains_proxy": null,
+      "report": {
+        "schema_version": 1,
+        "document": {
+          "name": "technical-catalog.pdf",
+          "sha256": "523414900189612738f9d5d91c2849e05b8cfb82b08c3cee2b93e6ae85e3696b",
+          "page_count": 3,
+          "skipped_pages": []
+        },
+        "question": "What is the selling price of Atlas A1?",
+        "retrieval": "bilingual_bm25",
+        "retrieved_pages": [
+          {
+            "page": 3,
+            "score": 1.88458,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nMaintenance and operating limits\nThe calibration interval is 12 months for all models.\nThe Atlas A1 storage temperature range is -20–60 °C.\nUse a dry microfiber cloth for cleaning.\nThe warranty does not cover damage from full liquid immersion.\nThe battery must be replaced by an authorized service provider.\nThis document does not provide pricing, camera or wireless specifications.\nFictional data - not a real product or laboratory result. 3 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 2,
+            "score": 0.504325,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nAtlas A1 power test\nFigure 1. Average power consumption by operating mode\nIdle 18 W\nMeasurement 30 W\nIntensive processing 45 W\nTest conditions\nTests were conducted at an ambient temperature of 23 °C.\nEach operating mode was measured for 60 minutes.\nThe sample size was five devices per mode.\nThis chart shows only the fictional Atlas A1 test.\nFictional data - not a real product or laboratory result. 2 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 1,
+            "score": 0.453129,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nPortable measurement stations\nThe table compares the specifications of three fictional models.\nSpecification Atlas A1 Bora B2 Ceren C3\nWeight 8 kg 12 kg 6 kg\nBattery life 9 hours 12 hours 5 hours\nFull charge time 2 hours 3 hours 1.5 hours\nProtection rating IP54 IP65 IP44\nWarranty period 24 months 36 months 24 months\nOperating temperature 0–40 °C -10–50 °C 5–35 °C\nSelection notes\nAtlas A1 is designed for lightweight field use.\nBora B2 offers longer operation and a higher protection rating.\nCeren C3 is designed for short indoor measurements.\nFictional data - not a real product or laboratory result. 1 / 3",
+            "text_truncated": false
+          }
+        ],
+        "answer": "Relevant pages were found. Source search does not generate a model answer.",
+        "evidence": [],
+        "model_called": false,
+        "citation_check": "Exact quote presence only; semantic correctness is not guaranteed.",
+        "mode": "search",
+        "status": "sources_only",
+        "elapsed_seconds": 0.498
+      }
+    },
+    {
+      "id": "u02",
+      "category": "unanswerable",
+      "mode": "search",
+      "expected_pages": [],
+      "accepted_answers": [],
+      "retrieval_recall": null,
+      "reference_contains_proxy": null,
+      "report": {
+        "schema_version": 1,
+        "document": {
+          "name": "technical-catalog.pdf",
+          "sha256": "523414900189612738f9d5d91c2849e05b8cfb82b08c3cee2b93e6ae85e3696b",
+          "page_count": 3,
+          "skipped_pages": []
+        },
+        "question": "What is the camera resolution of Bora B2 in megapixels?",
+        "retrieval": "bilingual_bm25",
+        "retrieved_pages": [
+          {
+            "page": 1,
+            "score": 4.992556,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nPortable measurement stations\nThe table compares the specifications of three fictional models.\nSpecification Atlas A1 Bora B2 Ceren C3\nWeight 8 kg 12 kg 6 kg\nBattery life 9 hours 12 hours 5 hours\nFull charge time 2 hours 3 hours 1.5 hours\nProtection rating IP54 IP65 IP44\nWarranty period 24 months 36 months 24 months\nOperating temperature 0–40 °C -10–50 °C 5–35 °C\nSelection notes\nAtlas A1 is designed for lightweight field use.\nBora B2 offers longer operation and a higher protection rating.\nCeren C3 is designed for short indoor measurements.\nFictional data - not a real product or laboratory result. 1 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 3,
+            "score": 2.962518,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nMaintenance and operating limits\nThe calibration interval is 12 months for all models.\nThe Atlas A1 storage temperature range is -20–60 °C.\nUse a dry microfiber cloth for cleaning.\nThe warranty does not cover damage from full liquid immersion.\nThe battery must be replaced by an authorized service provider.\nThis document does not provide pricing, camera or wireless specifications.\nFictional data - not a real product or laboratory result. 3 / 3",
+            "text_truncated": false
+          }
+        ],
+        "answer": "Relevant pages were found. Source search does not generate a model answer.",
+        "evidence": [],
+        "model_called": false,
+        "citation_check": "Exact quote presence only; semantic correctness is not guaranteed.",
+        "mode": "search",
+        "status": "sources_only",
+        "elapsed_seconds": 0.446
+      }
+    },
+    {
+      "id": "u03",
+      "category": "unanswerable",
+      "mode": "search",
+      "expected_pages": [],
+      "accepted_answers": [],
+      "retrieval_recall": null,
+      "reference_contains_proxy": null,
+      "report": {
+        "schema_version": 1,
+        "document": {
+          "name": "technical-catalog.pdf",
+          "sha256": "523414900189612738f9d5d91c2849e05b8cfb82b08c3cee2b93e6ae85e3696b",
+          "page_count": 3,
+          "skipped_pages": []
+        },
+        "question": "What WiFi frequency does Ceren C3 use?",
+        "retrieval": "bilingual_bm25",
+        "retrieved_pages": [
+          {
+            "page": 1,
+            "score": 5.596092,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nPortable measurement stations\nThe table compares the specifications of three fictional models.\nSpecification Atlas A1 Bora B2 Ceren C3\nWeight 8 kg 12 kg 6 kg\nBattery life 9 hours 12 hours 5 hours\nFull charge time 2 hours 3 hours 1.5 hours\nProtection rating IP54 IP65 IP44\nWarranty period 24 months 36 months 24 months\nOperating temperature 0–40 °C -10–50 °C 5–35 °C\nSelection notes\nAtlas A1 is designed for lightweight field use.\nBora B2 offers longer operation and a higher protection rating.\nCeren C3 is designed for short indoor measurements.\nFictional data - not a real product or laboratory result. 1 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 3,
+            "score": 0.709805,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nMaintenance and operating limits\nThe calibration interval is 12 months for all models.\nThe Atlas A1 storage temperature range is -20–60 °C.\nUse a dry microfiber cloth for cleaning.\nThe warranty does not cover damage from full liquid immersion.\nThe battery must be replaced by an authorized service provider.\nThis document does not provide pricing, camera or wireless specifications.\nFictional data - not a real product or laboratory result. 3 / 3",
+            "text_truncated": false
+          }
+        ],
+        "answer": "Relevant pages were found. Source search does not generate a model answer.",
+        "evidence": [],
+        "model_called": false,
+        "citation_check": "Exact quote presence only; semantic correctness is not guaranteed.",
+        "mode": "search",
+        "status": "sources_only",
+        "elapsed_seconds": 0.475
+      }
+    },
+    {
+      "id": "u04",
+      "category": "unanswerable",
+      "mode": "search",
+      "expected_pages": [],
+      "accepted_answers": [],
+      "retrieval_recall": null,
+      "reference_contains_proxy": null,
+      "report": {
+        "schema_version": 1,
+        "document": {
+          "name": "technical-catalog.pdf",
+          "sha256": "523414900189612738f9d5d91c2849e05b8cfb82b08c3cee2b93e6ae85e3696b",
+          "page_count": 3,
+          "skipped_pages": []
+        },
+        "question": "What is the quantum processor model number?",
+        "retrieval": "bilingual_bm25",
+        "retrieved_pages": [
+          {
+            "page": 3,
+            "score": 0.709805,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nMaintenance and operating limits\nThe calibration interval is 12 months for all models.\nThe Atlas A1 storage temperature range is -20–60 °C.\nUse a dry microfiber cloth for cleaning.\nThe warranty does not cover damage from full liquid immersion.\nThe battery must be replaced by an authorized service provider.\nThis document does not provide pricing, camera or wireless specifications.\nFictional data - not a real product or laboratory result. 3 / 3",
+            "text_truncated": false
+          },
+          {
+            "page": 1,
+            "score": 0.603536,
+            "excerpt": "EVIDENCEDOC / DEVELOPMENT FIXTURE\nPortable measurement stations\nThe table compares the specifications of three fictional models.\nSpecification Atlas A1 Bora B2 Ceren C3\nWeight 8 kg 12 kg 6 kg\nBattery life 9 hours 12 hours 5 hours\nFull charge time 2 hours 3 hours 1.5 hours\nProtection rating IP54 IP65 IP44\nWarranty period 24 months 36 months 24 months\nOperating temperature 0–40 °C -10–50 °C 5–35 °C\nSelection notes\nAtlas A1 is designed for lightweight field use.\nBora B2 offers longer operation and a higher protection rating.\nCeren C3 is designed for short indoor measurements.\nFictional data - not a real product or laboratory result. 1 / 3",
+            "text_truncated": false
+          }
+        ],
+        "answer": "Relevant pages were found. Source search does not generate a model answer.",
+        "evidence": [],
+        "model_called": false,
+        "citation_check": "Exact quote presence only; semantic correctness is not guaranteed.",
+        "mode": "search",
+        "status": "sources_only",
+        "elapsed_seconds": 0.405
+      }
+    }
+  ]
+}
