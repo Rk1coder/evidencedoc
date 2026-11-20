@@ -51,7 +51,7 @@ python -m pip install -r requirements.txt
 python app.py
 ```
 
-Open **http://127.0.0.1:7860**. The fictional sample PDF is generated automatically on first startup.
+Open **http://127.0.0.1:7860**. The fictional sample PDF is restored automatically from its checksum-verified fixture on first startup.
 
 The first answer downloads the model weights and loads them into memory. CPU latency and RAM requirements depend on the machine. Source search works without downloading the model. No paid service or GPU is provisioned by the application.
 
@@ -121,7 +121,7 @@ The development fixture is original, fictional data released under CC0-1.0. It i
 
 Local inference does not send document content to an external model provider. Hugging Face is contacted to download model files. Files uploaded to the public demo are processed on its hosting server; do not upload confidential material there.
 
-Managed report originals are capped at 64 files. Gradio also creates upload/preview/download cache copies, which have an age limit rather than a file-count limit. Files older than one hour are removed at startup and during minute-by-minute cleanup in an application-specific, user-owned temporary directory.
+The immutable public sample is served as a static file and is exempt from user-upload expiration. Managed report originals are capped at 64 files. Gradio also creates upload/preview/download cache copies, which have an age limit rather than a file-count limit. Files older than one hour are removed at startup and during minute-by-minute cleanup in an application-specific, user-owned temporary directory.
 
 PDF extraction runs in a disposable Linux process with a 768 MiB address-space limit, an eight-second CPU limit, and a twelve-second wall-clock timeout. These controls are not a complete security sandbox. Embedded document instructions are treated as data, but prompt-injection resistance is not guaranteed.
 
