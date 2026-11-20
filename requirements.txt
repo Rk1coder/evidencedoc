@@ -1,0 +1,15 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+gradio==6.11.0
+transformers==4.57.6
+torch==2.6.0+cpu; sys_platform != "darwin"
+torchvision==0.21.0+cpu; sys_platform != "darwin"
+torch==2.6.0; sys_platform == "darwin"
+torchvision==0.21.0; sys_platform == "darwin"
+pdfplumber==0.11.10
+pypdfium2==5.15.2
+snowballstemmer==3.1.1
+Pillow==12.3.0
+accelerate==1.16.0
+
+reportlab==4.5.1
+fastapi==0.165.0
