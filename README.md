@@ -1,22 +1,3 @@
----
-title: EvidenceDoc
-emoji: 📄
-colorFrom: blue
-colorTo: gray
-sdk: gradio
-sdk_version: 6.11.0
-python_version: "3.12"
-app_file: app.py
-license: apache-2.0
-short_description: Document QA with checked quotes and page evidence.
-models:
-  - Qwen/Qwen3-VL-2B-Instruct
-tags:
-  - document-question-answering
-  - vision-language-model
-  - retrieval-augmented-generation
----
-
 # EvidenceDoc
 
 [![Tests](https://github.com/Rk1coder/evidencedoc/actions/workflows/test.yml/badge.svg)](https://github.com/Rk1coder/evidencedoc/actions/workflows/test.yml)
@@ -121,7 +102,7 @@ The development fixture is original, fictional data released under CC0-1.0. It i
 
 ## Data handling
 
-Local inference does not send document content to an external model provider. Hugging Face is contacted to download model files. Files uploaded to the public demo are processed on its hosting server; do not upload confidential material there.
+Local inference does not send document content to an external model provider. Hugging Face is contacted to download model files. The hosted preview accepts no uploads. If you deploy the Python app for others, their uploaded files are processed on your server; make its data-handling policy clear.
 
 The immutable public sample is served as a static file and is exempt from user-upload expiration. Managed report originals are capped at 64 files. Gradio also creates upload/preview/download cache copies, which have an age limit rather than a file-count limit. Files older than one hour are removed at startup and during minute-by-minute cleanup in an application-specific, user-owned temporary directory.
 
