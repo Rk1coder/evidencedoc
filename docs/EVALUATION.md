@@ -13,7 +13,7 @@ For the same model and retrieved pages, what changes when page images are added 
 - Two maintenance-text questions.
 - Four questions whose answers are absent from the document.
 
-The sample, its generator, and questions are CC0-1.0. Product names and measurements are fictional. Prompts and implementation may be developed against this set, so it must not be presented as a held-out benchmark or as evidence of real-world accuracy.
+The fictional PDF and questions are CC0-1.0; the generator source code is Apache-2.0. Product names and measurements are fictional. Prompts and implementation may be developed against this set, so it must not be presented as a held-out benchmark or as evidence of real-world accuracy.
 
 ## Metrics
 
@@ -26,6 +26,8 @@ The sample, its generator, and questions are CC0-1.0. Product names and measurem
 The original chart's values are also present in its text layer. Correct answers on these examples cannot establish a benefit from vision. A stronger follow-up set needs information available only in figures, independent real documents, document-level splits, and human-verified answers and evidence.
 
 ## Reproduce
+
+The exact PDF used in the recorded probes is distributed in `examples/technical-catalog.fixture.json` as a Base64-encoded fixture with a SHA-256 digest. Startup and the default generator command restore those exact bytes, independent of installed fonts. Use `--regenerate` only when intentionally rebuilding the layout; record new measurements and update the fixture when doing so.
 
 ```bash
 python -m pip install -r requirements-dev.txt
