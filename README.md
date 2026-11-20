@@ -8,7 +8,7 @@ sdk_version: 6.11.0
 python_version: "3.12"
 app_file: app.py
 license: apache-2.0
-short_description: PDF question answering with checked quotes and page evidence.
+short_description: Document QA with checked quotes and page evidence.
 models:
   - Qwen/Qwen3-VL-2B-Instruct
 tags:
@@ -23,7 +23,9 @@ tags:
 
 **Ask your documents. Inspect the evidence behind every answer.**
 
-[Live demo](https://huggingface.co/spaces/rabitrabi/evidencedoc) · [Architecture](docs/ARCHITECTURE.md) · [Evaluation](docs/EVALUATION.md)
+[Interactive preview](https://huggingface.co/spaces/rabitrabi/evidencedoc) · [Architecture](docs/ARCHITECTURE.md) · [Evaluation](docs/EVALUATION.md)
+
+**Hosted preview:** the Hugging Face page replays recorded model results. Run the Python app below to upload your own PDFs; the preview does not expose an inference server.
 
 EvidenceDoc answers questions about technical reports and product catalogues using a local vision-language model. It retrieves relevant PDF pages, compares text-only and hybrid inference, and checks that every proposed quote exists in its cited source.
 
@@ -69,7 +71,7 @@ docker build -t evidencedoc .
 docker run --rm -p 7860:7860 -v evidencedoc-models:/home/user/.cache/huggingface evidencedoc
 ```
 
-The public Space builds from a fixed GitHub commit. See [deployment notes](docs/DEPLOYMENT.md) for the release contract.
+The public Hugging Face page uses the Static SDK for a recorded-results preview. See [deployment notes](docs/DEPLOYMENT.md) for hosting the Python application.
 
 ## API
 
@@ -78,7 +80,7 @@ The Gradio endpoints expose the same flows as the UI:
 ```python
 from gradio_client import Client, handle_file
 
-client = Client("https://rabitrabi-evidencedoc.hf.space")
+client = Client("http://127.0.0.1:7860")
 answer, evidence, pages, report_file, status = client.predict(
     handle_file("technical-report.pdf"),
     "What is the specified battery life?",
